@@ -1,0 +1,38 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #ddd;
+  display: flex;
+  text-align: center;
+  background: linear-gradient(to bottom, #062a73, #348fc7);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#zeitanzeige {
+  font-size: 4em;
+  margin-bottom: 20px;
+  font-family: "monospace";
+}
+
+#button-container {
+  display: flex;
+  flex-direction: inline;
+}
+
+button {
+  font-size: 1.5em;
+  width: 100px;
+  margin: 0 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45aaf2;
+}
